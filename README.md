@@ -1,4 +1,4 @@
-# Üdv látogató!
+## Üdv látogató!
 
 Ez a bemutatkozó oldal azt hivatott elősegíteni, hogy valamennyire rálátásod legyen tudásomra és programozói múltamra, mivel **Junior fejlesztőként jelenleg első munkahelyemet keresem**.
 
@@ -10,6 +10,134 @@ Az élet úgy hozta, hogy végül nem a programozói világban helyezkedtem el, 
 
 Az elmúlt évben elhatároztam, hogy pályát váltok, és megpróbálok a programozói szektorban elhelyezkedni, de mivel a tudásom meglehetősen elavultnak számított ennyi idő után, úgy döntöttem, hogy egy bootcamp képzés keretén belül felfrissítem ismereteimet.
 
-Így történt, hogy elvégeztem a PROGmasters **Junior Java backend fejlesztő** tanfolyamát, azaz most megismerkedtem a **Java** nyelvvel is.
+Így történt, hogy elvégeztem a PROGmasters **Junior Java backend fejlesztő** tanfolyamát, azaz most megismerkedtem a **Java** nyelvvel is. Jelenleg elkezdtem ugyanitt a **Real Code Academy** programot.
 
-Természetesen jelenleg kezdőnek számítok, de mint olvashattad, azért nem tipikus pályamódosító junior vagyok, a programozói véna már gyerekként is megvolt bennem.
+Természetesen jelenleg kezdőnek számítok, de mint olvashattad, nem tipikus pályamódosító junior vagyok, a programozói véna már gyerekként is megvolt bennem.
+
+### JELENLEG
+
+Dolgozok 1-2 bemutatkozó projekten, de mivel jelenleg még nincsenek kész, nem publikálom őket.
+
+Friss, a képzésen felszedett ismereteim címszavakban:
+
+**• Java  • Spring  • Hibernate  • SQL  • JPA  • JDBC  • Maven  • Agilis módszertan  • Jira  • Docker  • Git  • Clean code  • Unit & integrációs tesztelés, stb**
+
+### KÓD
+
+Mivel a képzésen készített anyagokat nem publikálhatom, egyelőre csak pár kódrészletet ragadok ki a közel- és távolmúltból, hogy mégis látszódjék némi saját kód is itt.
+
+*mostanában Java...*
+
+```
+    public List<String> getPlanetsNeverBoughtAnything() {
+
+        return planetList.stream()
+                .filter(p -> spaceshipList.stream().noneMatch(s -> s.getTotalSalePerPlanets().containsKey(p.getId())))
+                .map(Planet::getName)
+                .collect(Collectors.toList());
+    }
+```
+
+---
+
+```
+    @ResponseStatus(HttpStatus.CREATED)
+    @PostMapping
+    public void createArticle(@RequestBody @Valid ArticleTitleContentDto articleTitleContentDto,
+                              @RequestParam(name = "author_id") int authorId) {
+
+        articleService.createArticle(articleTitleContentDto, authorId);
+        log.info("Article created: " + authorId + " - " + articleTitleContentDto.getTitle());
+    }
+```
+
+---
+
+```
+    @Query("select a from Article a where a.title = ?1")
+    List<Article> getArticlesByTitle(String articleTitle);
+```
+
+---
+
+*régen Pascal, Assembly, C++ ... (ezekben Clean Code-t még nem érdemes keresni)*
+
+    asm	{
+        cli
+        mov		al,00110110b
+        out		43h,al
+        mov		ax,10000
+        out		40h,al
+        mov		al,ah
+        out		40h,al
+        sti
+    }
+
+---
+
+```
+    repeat
+        ch:=readkey;
+        if ch=#72 then p:=p+1;
+        if ch=#80 then p:=p-1;
+        if p=0 then p:=100;
+        if p=101 then p:=1;
+        str(p,esz);
+        bar(370,215,496,275);
+        outtextxy(380,240,esz);
+    until (ch=#13)or(ch=#27);
+```
+
+---
+
+```
+    kulcsp[0]:= '....................';
+    kulcsp[1]:= '......*******.......';
+    kulcsp[2]:= '.....*********......';
+    kulcsp[3]:= '....***.....***.....';
+    kulcsp[4]:= '....***.....***.....';
+    kulcsp[5]:= '....***.....***.....';
+    kulcsp[6]:= '.....*********......';
+    kulcsp[7]:= '......*******.......';
+    kulcsp[8]:= '........***.........';
+    kulcsp[9]:= '........***.........';
+    kulcsp[10]:='........***.........';
+    kulcsp[11]:='........***.........';
+    kulcsp[12]:='........***.........';
+    kulcsp[13]:='........***.........';
+    kulcsp[14]:='...********.........';
+    kulcsp[15]:='.....******.........';
+    kulcsp[16]:='.......****.........';
+    kulcsp[17]:='.....******.........';
+    kulcsp[18]:='...********.........';
+    kulcsp[19]:='....................';
+```
+-------------------------
+
+```
+    if (a<13 && b<13) {                     //3-as lehetosegek keresese
+        v=u=k=0;
+        for (c=0;c<3;c++) {
+            if (tabla[a+c][b+c]=='x') v++;
+            else if (tabla[a+c][b+c]==' ') u++;
+            else k++;
+        }
+        if (v==2 && u==1) {
+            for (c=0;tabla[a+c][b+c]!=' ';c++) ;
+            if (a-1<0 || b-1<0 || a+3>14 || b+3>14
+                    || tabla[a-1][b-1]=='o' || tabla[a+3][b+3]=='o')
+                vfok[a+c][b+c]+=_3as/arany;
+            else
+                vfok[a+c][b+c]+=_3as;
+        }
+        if (k==2 && u==1) {
+            for (c=0;tabla[a+c][b+c]!=' ';c++) ;
+            if (a-1<0 || b-1<0 || a+3>14 || b+3>14
+                    || tabla[a-1][b-1]=='x' || tabla[a+3][b+3]=='x')
+                efok[a+c][b+c]+=e_3as/earany;
+            else
+                efok[a+c][b+c]+=e_3as;
+        }
+    }
+```
+eeee
