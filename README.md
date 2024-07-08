@@ -10,7 +10,7 @@ Az élet úgy hozta, hogy végül nem a programozói világban helyezkedtem el, 
 
 Az elmúlt évben elhatároztam, hogy pályát váltok, és megpróbálok a programozói szektorban elhelyezkedni, de mivel a tudásom meglehetősen elavultnak számított ennyi idő után, úgy döntöttem, hogy egy bootcamp képzés keretén belül felfrissítem ismereteimet.
 
-Így történt, hogy elvégeztem a PROGmasters **Junior Java backend fejlesztő** tanfolyamát, azaz most megismerkedtem a **Java** nyelvvel is. Jelenleg elkezdtem ugyanitt a **Real Code Academy** programot.
+Így történt, hogy a közelmúltban elvégeztem a PROGmasters **Junior Java backend fejlesztő** tanfolyamát, ahol megismerkedtem a **Java** nyelvvel, amiben jelenleg programozok. Ugyanitt elkezdtem a **Real Code Academy** programot.
 
 Természetesen jelenleg kezdőnek számítok, de mint olvashattad, nem tipikus pályamódosító junior vagyok, a programozói véna már gyerekként is megvolt bennem.
 
@@ -62,17 +62,16 @@ Mivel a képzésen készített anyagokat nem publikálhatom, egyelőre csak pár
 
 *régen Pascal, Assembly, C++ ... (ezekben Clean Code-t még nem érdemes keresni)*
 
-    asm	{
-        cli
-        mov		al,00110110b
-        out		43h,al
-        mov		ax,10000
-        out		40h,al
-        mov		al,ah
-        out		40h,al
-        sti
-    }
-
+asm	{
+    cli
+    mov		al,00110110b
+    out		43h,al
+    mov		ax,10000
+    out		40h,al
+    mov		al,ah
+    out		40h,al
+    sti
+}
 ---
 
 ```
@@ -87,7 +86,6 @@ Mivel a képzésen készített anyagokat nem publikálhatom, egyelőre csak pár
         outtextxy(380,240,esz);
     until (ch=#13)or(ch=#27);
 ```
-
 ---
 
 ```
@@ -112,7 +110,7 @@ Mivel a képzésen készített anyagokat nem publikálhatom, egyelőre csak pár
     kulcsp[18]:='...********.........';
     kulcsp[19]:='....................';
 ```
--------------------------
+---
 
 ```
     if (a<13 && b<13) {                     //3-as lehetosegek keresese
