@@ -54,8 +54,8 @@ Mivel a képzésen készített anyagokat nem publikálhatom, egyelőre csak pár
 ---
 
 ```
-    @Query("select a from Article a where a.title = ?1")
-    List<Article> getArticlesByTitle(String articleTitle);
+    @Query("select new org.example.dto.ResultDto(r. id, r.datePlayed, r.name, r.winnerStepCount, r.winnerTime) from Result r order by r.winnerStepCount asc, r.winnerTime asc")
+    List<ResultDto> getBestResults(Pageable pageable);
 ```
 
 ---
