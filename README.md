@@ -16,11 +16,11 @@ Természetesen jelenleg kezdőnek számítok, de mint olvashattad, nem tipikus p
 
 ### JELENLEG
 
-Dolgozok 1-2 bemutatkozó projekten, de mivel jelenleg még nincsenek kész, nem publikálom őket.
+Dolgozok egy bemutatkozó projekten, de mivel jelenleg még nincsen kész, nem publikálom.
 
 Friss, a képzésen felszedett ismereteim címszavakban:
 
-**• Java  • Spring  • Hibernate  • SQL  • JPA  • JDBC  • Maven  • Agilis módszertan  • Jira  • Docker  • Git  • Clean code  • Unit & integrációs tesztelés, stb**
+**• Java  • Spring  • Hibernate  • SQL  • JPA  • JDBC  • Maven  • Agilis módszertan  • Jira  • Docker  • Git  • Clean code  • Unit, Selenium és integrációs tesztelés, stb**
 
 ### KÓD
 
@@ -62,6 +62,7 @@ Mivel a képzésen készített anyagokat nem publikálhatom, egyelőre csak pár
 
 *régen Pascal, Assembly, C++ ... (ezekben Clean Code-t még nem érdemes keresni)*
 
+```
 asm	{
     cli
     mov		al,00110110b
@@ -72,6 +73,8 @@ asm	{
     out		40h,al
     sti
 }
+```
+
 ---
 
 ```
@@ -86,6 +89,7 @@ asm	{
         outtextxy(380,240,esz);
     until (ch=#13)or(ch=#27);
 ```
+
 ---
 
 ```
@@ -110,6 +114,7 @@ asm	{
     kulcsp[18]:='...********.........';
     kulcsp[19]:='....................';
 ```
+
 ---
 
 ```
@@ -138,4 +143,3 @@ asm	{
         }
     }
 ```
-eeee
