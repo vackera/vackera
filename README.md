@@ -1,10 +1,10 @@
-# Üdv látogató!
+## Üdv látogató!
 
 Ez a bemutatkozó oldal azt hivatott elősegíteni, hogy valamennyire rálátásod legyen tudásomra és programozói múltamra, mivel **Junior fejlesztőként jelenleg első munkahelyemet keresem**.
 
 ### PROG-BIO
 
-Gyermekkori hobbim volt a programozás, 14 éves korom körül kezdtem autodidakta módon **Pascal** nyelven kódolni DOS alatt még internet nélkül, csak könyvek, és egy ismerős segítségével. Belekóstoltam érdekességképpen az **Assembly** nyelvbe is ekkortájt. Gimnázium után elvégeztem egy 2 éves iskolarendszerű OKJ-s programozói tanfolyamot, itt váltottam **C++** nyelvre, és Windows alatti fejlesztésnél **C++ Builder** fejlesztőkörnyezetre.
+Gyerekkori hobbim volt a programozás, 14 éves korom körül kezdtem autodidakta módon **Pascal** nyelven kódolni DOS alatt még internet nélkül, csak könyvek, és egy ismerős segítségével. Belekóstoltam érdekességképpen az **Assembly** nyelvbe is ekkortájt. Gimnázium után elvégeztem egy 2 éves iskolarendszerű OKJ-s programozói tanfolyamot, itt váltottam **C++** nyelvre, és Windows alatti fejlesztésnél **C++ Builder** fejlesztőkörnyezetre.
 
 Az élet úgy hozta, hogy végül nem a programozói világban helyezkedtem el, de számítógépes munkáim során érintőlegesen foglalkoztam az elmúlt 20 évben is kisebb programok, **javascriptek**, **CSS** és **HTML** fájlok szerkesztésével/írásával.
 
@@ -12,19 +12,23 @@ Az elmúlt évben elhatároztam, hogy pályát váltok, és megpróbálok a prog
 
 Így történt, hogy a közelmúltban elvégeztem a PROGmasters **Junior Java backend fejlesztő** tanfolyamát, ahol megismerkedtem a **Java** nyelvvel, amiben jelenleg programozok. Ugyanitt elkezdtem a **Real Code Academy** programot.
 
-Természetesen valós munkatapasztalat híján jelenleg juniornak számítok, de mint olvashattad, nem az a tipikus kezdő/pályamódosító vagyok, a programozói véna már gyerekként is megvolt bennem, így jó eséllyel gyorsan fel tudom venni a szükséges tempót.
-
 ### JELENLEG
 
 Bemutatkozó projektem: [https://github.com/vackera/five-in-a-row](https://github.com/vackera/five-in-a-row)
 
 Friss, a képzésen felszedett ismereteim címszavakban:
 
-**• Java  • Spring  • Hibernate  • SQL  • JPA  • JDBC  • Maven  • Agilis módszertan  • Jira  • Docker  • Git  • Clean code  • Unit, Selenium és integrációs tesztelés, stb**
+**• Java • Spring • Hibernate • SQL • JPA • JDBC • Maven • Agilis módszertan • Jira • Docker • Git • Clean code • Unit, Selenium és integrációs tesztelés •**
+
+Egyéb ismeretek:
+
+**• HTML • CSS • Javascript • JQuery •**
+
+Természetesen valós munkatapasztalat híján jelenleg juniornak számítok, de mint olvashattad, nem az a tipikus kezdő/pályamódosító vagyok, a programozói véna már gyerekként is megvolt bennem, így jó eséllyel gyorsan fel tudom venni a szükséges tempót.
 
 ### KÓD
 
-Mivel a képzésen készített anyagokat nem publikálhatom, egyelőre csak pár kódrészletet ragadok ki a közel- és távolmúltból, hogy mégis látszódjék némi saját kód is itt.
+Mivel a képzésen készített anyagokat nem publikálhatom, csak pár kódrészletet ragadok ki a közel- és távolmúltból, hogy mégis látszódjék némi saját kód is itt.
 
 *mostanában Java...*
 
