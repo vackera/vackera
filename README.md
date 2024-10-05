@@ -14,7 +14,7 @@ Az elmúlt évben elhatároztam, hogy pályát váltok, és megpróbálok a prog
 
 ### JELENLEG
 
-Bemutatkozó projektem: [https://github.com/vackera/five-in-a-row](https://github.com/vackera/five-in-a-row)
+Bemutatkozó projektem élő demóval: [https://github.com/vackera/five-in-a-row](https://github.com/vackera/five-in-a-row)
 
 Friss, a képzésen felszedett ismereteim címszavakban:
 
@@ -22,7 +22,7 @@ Friss, a képzésen felszedett ismereteim címszavakban:
 
 Egyéb ismeretek:
 
-**• HTML • CSS • Javascript • JQuery •**
+**• HTML • CSS • Javascript • jQuery •**
 
 Természetesen valós munkatapasztalat híján jelenleg juniornak számítok, de mint olvashattad, nem az a tipikus kezdő/pályamódosító vagyok, a programozói véna már gyerekként is megvolt bennem, így jó eséllyel gyorsan fel tudom venni a szükséges tempót.
 
