@@ -22,7 +22,7 @@ Friss, a képzésen felszedett ismereteim címszavakban:
 
 Egyéb ismeretek:
 
-**• HTML • CSS • Javascript • jQuery •**
+**• HTML • CSS • JavaScript • jQuery •**
 
 Jelenleg ismerkedek:
 
