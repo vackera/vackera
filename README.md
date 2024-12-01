@@ -24,6 +24,10 @@ Egyéb ismeretek:
 
 **• HTML • CSS • Javascript • jQuery •**
 
+Jelenleg ismerkedek:
+
+**• Angular • TypeScript •** (hamarosan a bemutatkozó projekten is látszik)
+
 Természetesen valós munkatapasztalat híján jelenleg juniornak számítok, de mint olvashattad, nem az a tipikus kezdő/pályamódosító vagyok, a programozói véna már gyerekként is megvolt bennem, így jó eséllyel gyorsan fel tudom venni a szükséges tempót.
 
 ### KÓD
