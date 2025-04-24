@@ -1,16 +1,16 @@
 ## Üdv látogató!
 
-Ez a bemutatkozó oldal azt hivatott elősegíteni, hogy valamennyire rálátásod legyen tudásomra és programozói múltamra, mivel **Junior fejlesztőként jelenleg első munkahelyemet keresem**.
+Ezt a bemutatkozó oldalt azért készítettem, hogy rálátásod legyen tudásomra és programozói múltamra, mivel **Junior fejlesztőként első munkahelyemet keresem**.
 
 ### PROG-BIO
 
 Gyerekkori hobbim volt a programozás, 14 éves korom körül kezdtem autodidakta módon **Pascal** nyelven kódolni DOS alatt még internet nélkül, csak könyvek, és egy ismerős segítségével. Belekóstoltam érdekességképpen az **Assembly** nyelvbe is ekkortájt. Gimnázium után elvégeztem egy 2 éves iskolarendszerű OKJ-s programozói tanfolyamot, itt váltottam **C++** nyelvre, és Windows alatti fejlesztésnél **C++ Builder** fejlesztőkörnyezetre.
 
-Az élet úgy hozta, hogy végül nem a programozói világban helyezkedtem el, de számítógépes munkáim során érintőlegesen foglalkoztam az elmúlt 20 évben is kisebb programok, **javascriptek**, **CSS** és **HTML** fájlok szerkesztésével/írásával.
+Az élet úgy hozta, hogy végül nem a programozói világban helyezkedtem el, de számítógépes munkáim során érintőlegesen foglalkoztam az elmúlt 20 évben is kisebb programok, **JavaScriptek**, **CSS** és **HTML** fájlok szerkesztésével/írásával.
 
-Az elmúlt évben elhatároztam, hogy pályát váltok, és megpróbálok a programozói szektorban elhelyezkedni, de mivel a tudásom meglehetősen elavultnak számított ennyi idő után, úgy döntöttem, hogy egy bootcamp képzés keretén belül felfrissítem ismereteimet.
+Másfél évvel ezelőtt elhatároztam, hogy pályát váltok, és megpróbálok a programozói szektorban elhelyezkedni, de mivel a tudásom meglehetősen elavultnak számított ennyi idő után, úgy döntöttem, hogy egy bootcamp képzés keretén belül felfrissítem ismereteimet.
 
-Így történt, hogy a közelmúltban elvégeztem a PROGmasters **Junior Java backend fejlesztő** tanfolyamát, ahol megismerkedtem a **Java** nyelvvel, amiben jelenleg programozok. Ugyanitt elkezdtem a **Real Code Academy** programot.
+Így történt, hogy a közelmúltban elvégeztem a PROGmasters **Junior Java backend fejlesztő** tanfolyamát, ahol megismerkedtem a **Java** nyelvvel, amiben jelenleg programozok. Ugyanitt elvégeztem a **Real Code Academy** programot.
 
 ### JELENLEG
 
@@ -28,7 +28,16 @@ Jelenleg ismerkedek:
 
 **• Angular • TypeScript •** (hamarosan a bemutatkozó projekten is látszik)
 
-Természetesen valós munkatapasztalat híján jelenleg juniornak számítok, de mint olvashattad, nem az a tipikus kezdő/pályamódosító vagyok, a programozói véna már gyerekként is megvolt bennem, így jó eséllyel gyorsan fel tudom venni a szükséges tempót.
+Természetesen valós munkatapasztalat híján jelenleg Juniornak számítok, de mint olvashattad, nem az a tipikus kezdő/pályamódosító vagyok, a programozói véna már gyerekként is megvolt bennem, így jó eséllyel gyorsan fel tudom venni a szükséges tempót. AI támogatással nagyon sok mindent meg tudok valósítani, így ilyen szempontból inkább Medior szintre sorolnám magam.
+
+### ELMÚLT FÉL ÉV
+
+Saját célra készített hobbiprojektek. Garfield matricás gyűjtőhöz készített kártya nyilvántartó, aukciós oldalhoz készített termékfigyelő Discord integrációval.
+
+<p align="center">
+  <img src="assets/garfield_kartyas.png " width="41%" />
+  <img src="assets/vinted_bot.png" width="30%" />
+</p>
 
 ### KÓD
 
@@ -161,7 +170,6 @@ asm	{
   <img src="assets/cdnyilvantarto.png" width="22%" />
   <img src="assets/szokereso1.png" width="22%" />
   <img src="assets/kerveredes1.png" width="22%" />
-
 </p>
 <p align="center">
   <img src="assets/onelet.png" width="22%" />
